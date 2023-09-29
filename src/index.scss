@@ -1,0 +1,47 @@
+:root {
+  --color-white: 255, 255, 255;
+  --color-heading: 17, 17, 17;
+  --color-heading-2: 0, 0, 0;
+  --color-text-1: 102, 102, 102;
+  --color-text-3: 85, 85, 85;
+  --color-text-2: 51, 51, 51;
+  --color-background-1: 255, 255, 255;
+  --color-background-2: 120, 67, 233;
+  --color-background-3: 153, 153, 153;
+  --color-background-4: 250, 250, 250;
+  --color-background-5: 240, 240, 240;
+  --color-background-6: 235, 235, 235;
+  --color-background-7: 0, 0, 0;
+
+}
+
+html {
+  font-size: 62.5%;
+
+  @media only screen and (max-width: 1200px) {
+    font-size: 59%;
+  }
+  @media only screen and (max-width: 900px) {
+    font-size: 56%;
+  }
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 1000px;
+  font-size: 1.6rem;
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
