@@ -6,7 +6,7 @@ const Navigation = () => {
         <div className="navigation-container">
             <div className="logo-container">
                 <span className="logo">AQ</span>
-                <h3>RAM MAHESHWARI</h3>
+                <h3>Ammar Qureshi</h3>
             </div>
             <div className="links-container">
                 <Link className='link'>Home</Link>
