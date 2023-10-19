@@ -9,7 +9,7 @@ const mySkills = ['HTML','CSS','JavaScript','React','SASS','GIT','Github','Respo
 
 const SectionAbout = () => {
     return(
-        <div className="section-about">
+        <div id='about' className="section-about">
             <SectionContainer>
                 <HeadingPrimary>
                     <h2>About Me</h2>

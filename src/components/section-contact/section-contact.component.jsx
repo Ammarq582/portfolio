@@ -5,7 +5,7 @@ import './section-contact.styles.scss';
 
 const SectionContact = () => {
     return(
-        <div className="section-contact-container">
+        <div id='contact' className="section-contact-container">
             <SectionContainer>
                 <HeadingPrimary>
                     <h2>Contact</h2>
