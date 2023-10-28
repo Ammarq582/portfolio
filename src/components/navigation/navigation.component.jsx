@@ -10,6 +10,10 @@ const Navigation = () => {
         setisMenuOpen(!isMenuOpen);    
     }
 
+    const closeMenuOnLinkClick = () => {
+        setisMenuOpen(false);
+    }
+
     return(
         <div className="navigation">
             <div className="navigation-container">
@@ -20,10 +24,10 @@ const Navigation = () => {
                     <h3>Ammar Qureshi</h3>
                 </div>
                 <div className="links-container">
-                    <Link to='/#home' className='link' onClick={menuClickHander}>Home</Link>
-                    <Link to='#about' className='link' onClick={menuClickHander}>About</Link>
-                    <Link to='#projects' className='link' onClick={menuClickHander}>Projects</Link>
-                    <Link to='#contact' className='link' onClick={menuClickHander}>Contact</Link>
+                    <Link to='/#home' className='link' onClick={closeMenuOnLinkClick}>Home</Link>
+                    <Link to='#about' className='link' onClick={closeMenuOnLinkClick}>About</Link>
+                    <Link to='#projects' className='link' onClick={closeMenuOnLinkClick}>Projects</Link>
+                    <Link to='#contact' className='link' onClick={closeMenuOnLinkClick}>Contact</Link>
                 </div>
 
                 <div className="ham-menu-cont" onClick={menuClickHander}>

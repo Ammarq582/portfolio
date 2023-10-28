@@ -14,7 +14,7 @@ const Project = ({project}) => {
                 <HeadingSecondary>{name}</HeadingSecondary>
                 <p>{description}</p>
                 <CustomButton target='_blank' linkAddress={linkAddress} buttonType={CUSTOM_BUTTON_TYPES.medium}>
-                    Case Study
+                    Visit {name}
                 </CustomButton>
             </div>
         </div>

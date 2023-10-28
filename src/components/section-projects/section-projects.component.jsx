@@ -37,7 +37,7 @@ const SectionProjects = () => {
             <SectionContainer>
                 <HeadingPrimary>
                     <h2>Projects</h2>
-                    <p>Here you will find some of the personal and clients projects that I created with each project containing its own case study</p>
+                    <p>Here you will find some of the personal projects that I created with each project containing its own case study</p>
                 </HeadingPrimary>
                 <div className="projects-container">
                     {
