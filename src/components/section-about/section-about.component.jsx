@@ -1,4 +1,4 @@
-import { HashLink as Link } from 'react-router-hash-link';
+
 import CustomButton, { CUSTOM_BUTTON_TYPES } from '../custom-button/custom-button.component';
 import HeadingPrimary from '../heading-primary/heading-primary.component';
 import HeadingSecondary from '../heading-secondary/heading-secondary.component';
