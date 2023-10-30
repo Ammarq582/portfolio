@@ -11,8 +11,8 @@ const SectionContact = () => {
                     <h2>Contact</h2>
                     <p>Feel free to Contact me by submitting the form below and I will get back to you as soon as possible</p>
                 </HeadingPrimary>
-                <form name='contact' method='post' className="contact-form">
-                    <input type='hidden' name='form-name' value='contact'/>
+                <form name="contact" method="post" className="contact-form">
+                    <input type="hidden" name="form-name" value='contact'/>
                     <FormInput
                     label='Name'
                     type='text'
