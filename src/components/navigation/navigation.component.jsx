@@ -24,10 +24,10 @@ const Navigation = () => {
                     <h3>Ammar Qureshi</h3>
                 </div>
                 <div className="links-container">
-                    <Link to='/#home' className='link' onClick={closeMenuOnLinkClick}>Home</Link>
-                    <Link to='#about' className='link' onClick={closeMenuOnLinkClick}>About</Link>
-                    <Link to='#projects' className='link' onClick={closeMenuOnLinkClick}>Projects</Link>
-                    <Link to='#contact' className='link' onClick={closeMenuOnLinkClick}>Contact</Link>
+                    <Link to='/#home' className='link'>Home</Link>
+                    <Link to='#about' className='link'>About</Link>
+                    <Link to='#projects' className='link'>Projects</Link>
+                    <Link to='#contact' className='link'>Contact</Link>
                 </div>
 
                 <div className="ham-menu-cont" onClick={menuClickHander}>
@@ -40,19 +40,19 @@ const Navigation = () => {
                     <div className="header__sm-menu-content">
                         <ul className="header__sm-menu-links">
                         <li className="header__sm-menu-link">
-                            <Link to="./"> Home </Link>
+                            <Link to="./#home" onClick={closeMenuOnLinkClick}> Home </Link>
                         </li>
 
                         <li className="header__sm-menu-link">
-                            <Link to="./#about"> About </Link>
+                            <Link to="./#about" onClick={closeMenuOnLinkClick}> About </Link>
                         </li>
 
                         <li className="header__sm-menu-link">
-                            <Link to="./#projects"> Projects </Link>
+                            <Link to="./#projects" onClick={closeMenuOnLinkClick}> Projects </Link>
                         </li>
 
                         <li className="header__sm-menu-link">
-                            <Link to="./#contact"> Contact </Link>
+                            <Link to="./#contact" onClick={closeMenuOnLinkClick}> Contact </Link>
                         </li>
                         </ul>
                     </div>
