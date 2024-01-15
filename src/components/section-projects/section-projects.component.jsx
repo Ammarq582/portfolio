@@ -9,7 +9,7 @@ const projectsList = [
     name: 'MyFlix',
     description: "MyFlix is a free streaming web app that i developed using TMDB API that allows you to watch your favorite shows and movies for free",
     imageUrl: 'https://i.ibb.co/ccsJwFN/Myflix.jpg',
-    linkAddress: 'https://mynexters.netlify.app/',
+    linkAddress: 'https://myflixs.netlify.app/',
   },
   {
     name: 'Your Clothing',
