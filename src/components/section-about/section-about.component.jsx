@@ -5,7 +5,21 @@ import HeadingSecondary from '../heading-secondary/heading-secondary.component';
 import './section-about.styles.scss'
 import SectionContainer from '../section-container/section-container.component';
 
-const mySkills = ['HTML','CSS','JavaScript','React','Redux','SASS','GIT','Github','Responsive Design','SEO','Terminal'];
+const mySkills = [
+    'ReactJS',
+    'Redux',
+    'NextJS',
+    'SvelteJS',
+    'SvelteKit',
+    'TypeScript',
+    'JavaScript',
+    'TailwindCSS',
+    'HTML5',
+    'CSS3',
+    'SASS',
+    'GIT',
+    'Github',
+];
 
 const SectionAbout = () => {
     return(
@@ -19,8 +33,8 @@ const SectionAbout = () => {
                 <div className="section-about-content--main">
                     <HeadingSecondary>Get to know me!</HeadingSecondary>
                     <div className="description">
-                        <p>I'm a <strong>Frontend Web Developer</strong> building the Front-end of Websites and Web Applications that leads to the success of the overall product. Check out some of my work in the <strong>Projects</strong> section.</p>
-                        <p>I'm open to <strong>Job</strong> opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to <strong>contact</strong> me.</p>
+                        <p>As a skilled front-end developer, I specialize in creating dynamic and responsive web applications using modern technologies. With expertise in React, full-stack development with Next.js and SvelteKit, and styling with Tailwind CSS, I bring a comprehensive approach to building seamless user experiences.</p>
+                        <p>I am dedicated to continuous learning and staying up-to-date with the latest industry trends to deliver cutting-edge solutions. My goal is to not only meet but exceed client expectations by delivering high-quality and maintainable code.</p>
                     </div>
                     <CustomButton linkAddress='#contact' buttonType={CUSTOM_BUTTON_TYPES.medium}>
                         Contact
